@@ -1,2 +1,2 @@
 createuser -U postgres <newusername> -P
-createdb -U <newusername> -E utf8 -O <newusername> <newdbname> -T template1createuser -U postgres <newusername> -P
+createdb -U <newusername> -E utf8 -O <newusername> <newdbname> -T template1
