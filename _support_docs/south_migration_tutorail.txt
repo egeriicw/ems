@@ -1,0 +1,9 @@
+
+
+## Initial migration
+manage.py schemamigration <app_name> --initial
+manage.py migrate <app_name>
+
+## After Changing migration
+manage.py schemamigration <app_name> --auto
+manage.py migrate <app_name>
